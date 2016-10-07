@@ -71,7 +71,6 @@ namespace Libary.BLL
         /// </summary>
         public ActionGroupActionInfo GetModelByCache(int ActionGroup_ID, int ActionInfo_ID)
         {
-
             string CacheKey = "ActionGroupActionInfoModel-" + ActionGroup_ID + ActionInfo_ID;
             object objModel = Maticsoft.Common.DataCache.GetCache(CacheKey);
             if (objModel == null)

@@ -1,0 +1,823 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: Tahoma,'Microsoft Yahei',Simsun !important;
+    font-weight: 400;
+}
+
+body {
+    line-height: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+a {
+    color: #ff8000;
+}
+
+    a:active, a:hover {
+        color: #ffb366;
+    }
+
+.placeholder {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 10px;
+    line-height: 32px;
+    font-size: 16px;
+    color: #999 !important;
+    cursor: text;
+    z-index: 999;
+}
+
+section.top-bar-element {
+    padding: 7.5px 0;
+    background-color: #fff;
+}
+
+    section.top-bar-element .top-bar-logo {
+        float: left;
+        display: block;
+        margin-top: 13.5px;
+        width: 180px;
+    }
+
+@media only screen and (max-width:767px) {
+    section.top-bar-element {
+        padding-bottom: 10px;
+    }
+
+        section.top-bar-element .top-bar-logo {
+            float: none;
+            margin: 0 auto 10px;
+        }
+}
+
+section.top-bar-element .top-bar-logo > img {
+    width: 100%;
+}
+
+section.top-bar-element .top-bar-link {
+    float: left;
+    padding: 28px 0;
+    width: 50%;
+    text-align: center;
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    section.top-bar-element .top-bar-link {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    section.top-bar-element .top-bar-link {
+        display: none;
+    }
+}
+
+section.top-bar-element .top-bar-link > a {
+    color: #333;
+}
+
+section.top-bar-element .top-bar-link > span {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+    section.top-bar-element .top-bar-link > span .fa {
+        color: #f93;
+    }
+
+section.top-bar-element .top-bar-login {
+    float: right;
+    position: relative;
+    padding: 27.5px 0;
+}
+
+    section.top-bar-element .top-bar-login > a {
+        font-size: 16px;
+        color: #333;
+    }
+
+        section.top-bar-element .top-bar-login > a:active, section.top-bar-element .top-bar-login > a:focus, section.top-bar-element .top-bar-login > a:hover {
+            text-decoration: none;
+            color: #ff8000;
+        }
+
+        section.top-bar-element .top-bar-login > a.dropdown-toggle .fa {
+            margin-top: -10px;
+            vertical-align: middle;
+        }
+
+    section.top-bar-element .top-bar-login > span {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    section.top-bar-element .top-bar-login .dropdown-menu {
+        left: auto;
+        right: 0;
+        margin-top: -10px;
+        min-width: 25px;
+        z-index: 9999;
+    }
+
+        section.top-bar-element .top-bar-login .dropdown-menu > li > a {
+            padding: 3px 10px;
+            font-size: 12px;
+        }
+
+            section.top-bar-element .top-bar-login .dropdown-menu > li > a .fa {
+                margin-right: 8px;
+                width: 12px;
+                text-align: center;
+            }
+
+section.top-bar-element .top-bar-search {
+    float: right;
+    margin-right: 40px;
+    padding: 22.5px 0;
+}
+
+    section.top-bar-element .top-bar-search .form-inline .form-group .form-control {
+        width: 180px;
+        height: 30px;
+    }
+
+    section.top-bar-element .top-bar-search .form-inline .btn {
+        padding: 4px 15px;
+        line-height: 20px;
+        color: #fff;
+        background-color: #f93;
+        border-color: #f93;
+    }
+
+        section.top-bar-element .top-bar-search .form-inline .btn:hover {
+            color: #fff;
+            border-color: #ffb366;
+            background-color: #ffb366;
+        }
+
+        section.top-bar-element .top-bar-search .form-inline .btn:focus {
+            color: #fff;
+            border-color: desturate(#f57a00,33%);
+            background-color: desturate(#f57a00,33%);
+        }
+
+@media only screen and (max-width:767px) {
+    section.top-bar-element .top-bar-search {
+        float: left;
+        margin: 0;
+    }
+
+        section.top-bar-element .top-bar-search .form-inline .form-group {
+            float: left;
+            margin-bottom: 0;
+        }
+
+            section.top-bar-element .top-bar-search .form-inline .form-group .form-control {
+                width: 150px;
+            }
+
+        section.top-bar-element .top-bar-search .form-inline .btn {
+            padding: 4px 8px;
+        }
+}
+
+nav.nav-bar-element {
+    margin-bottom: 0;
+    border: none;
+    background-color: #333;
+}
+
+    nav.nav-bar-element .navbar-collapse .navbar-nav > li.active > a, nav.nav-bar-element .navbar-collapse .navbar-nav > li > a:hover {
+        color: #ff8000;
+        background-color: #000;
+    }
+
+    nav.nav-bar-element .navbar-header .navbar-toggle {
+        float: left;
+        margin-left: 4px;
+    }
+
+    nav.nav-bar-element .navbar-collapse {
+        padding: 0;
+        border-left: 1px solid #222;
+        border-right: 1px solid #444;
+    }
+
+@media only screen and (max-width:767px) {
+    nav.nav-bar-element .navbar-collapse {
+        border: none;
+    }
+}
+
+nav.nav-bar-element .navbar-collapse .navbar-nav {
+    border-left: 1px solid #444;
+}
+
+    nav.nav-bar-element .navbar-collapse .navbar-nav > li {
+        position: relative;
+    }
+
+        nav.nav-bar-element .navbar-collapse .navbar-nav > li:hover .dropdown-menu {
+            display: block;
+        }
+
+        nav.nav-bar-element .navbar-collapse .navbar-nav > li > a {
+            padding: 15px 30px;
+            line-height: 20px;
+            font-size: 18px;
+        }
+
+            nav.nav-bar-element .navbar-collapse .navbar-nav > li > a:active, nav.nav-bar-element .navbar-collapse .navbar-nav > li > a:focus {
+                color: #fff;
+                background-color: #333;
+            }
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    nav.nav-bar-element .navbar-collapse .navbar-nav > li > a {
+        padding: 15px 20px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    nav.nav-bar-element .navbar-collapse .navbar-nav > li > a {
+        padding: 15px 8px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    nav.nav-bar-element .navbar-collapse .navbar-nav {
+        border: none;
+    }
+
+        nav.nav-bar-element .navbar-collapse .navbar-nav > li > a {
+            padding: 10px 30px;
+        }
+}
+
+nav.nav-bar-element .navbar-collapse .navbar-nav > li .dropdown-menu {
+    padding: 0;
+    min-width: 100%;
+    background-color: #eee;
+}
+
+    nav.nav-bar-element .navbar-collapse .navbar-nav > li .dropdown-menu:hover + a {
+        color: #ff8000;
+        background-color: #000;
+    }
+
+    nav.nav-bar-element .navbar-collapse .navbar-nav > li .dropdown-menu > li > a {
+        padding: 8px 30px;
+    }
+
+        nav.nav-bar-element .navbar-collapse .navbar-nav > li .dropdown-menu > li > a:hover {
+            background-color: #fafafa;
+        }
+
+nav.nav-bar-element .navbar-collapse .sub-nav {
+    border-left: none;
+    border-right: 1px solid #222;
+}
+
+@media only screen and (min-width:1200px) {
+    nav.nav-bar-element .navbar-collapse .sub-nav {
+        width: 303px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    nav.nav-bar-element .navbar-collapse .navbar-nav > li .dropdown-menu > li > a {
+        padding: 8px 20px;
+    }
+
+    nav.nav-bar-element .navbar-collapse .sub-nav {
+        width: 243px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    nav.nav-bar-element .navbar-collapse .navbar-nav > li .dropdown-menu > li > a {
+        padding: 8px;
+    }
+
+    nav.nav-bar-element .navbar-collapse .sub-nav {
+        width: 191px;
+    }
+}
+
+nav.nav-bar-element .navbar-collapse .sub-nav > li > a {
+    padding-top: 18px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    vertical-align: baseline;
+}
+
+@media only screen and (max-width:767px) {
+    nav.nav-bar-element .navbar-collapse .sub-nav {
+        border: none;
+    }
+
+        nav.nav-bar-element .navbar-collapse .sub-nav > li > a {
+            padding: 10px 30px;
+        }
+}
+
+footer.footer {
+    padding-top: 1px;
+    border-top: 1px solid #ddd;
+}
+
+    footer.footer section.footer-maps {
+        padding: 30px 0;
+        background-color: #f0f0f0;
+    }
+
+        footer.footer section.footer-maps .footer-qr-code {
+            float: left;
+            margin-right: 60px;
+            padding: 0 80px;
+            text-align: center;
+            border-right: 1px solid #ddd;
+        }
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    footer.footer section.footer-maps .footer-qr-code {
+        margin-right: 40px;
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    footer.footer section.footer-maps .footer-qr-code {
+        float: none;
+        margin-right: 0;
+        padding: 0;
+        text-align: center;
+        border-right: none;
+    }
+}
+
+footer.footer section.footer-maps .footer-qr-code > img {
+    margin-bottom: 20px;
+    width: 110px;
+    height: 110px;
+}
+
+footer.footer section.footer-maps .footer-maps-block {
+    float: left;
+    width: 155px;
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    footer.footer section.footer-maps .footer-maps-block {
+        width: 115px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    footer.footer section.footer-maps .footer-maps-block {
+        width: 90px;
+    }
+}
+
+footer.footer section.footer-maps .footer-maps-block > a > h2 {
+    margin-top: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+footer.footer section.footer-maps .footer-maps-block .footer-maps-list > li > a {
+    font-size: 12px;
+    color: #666;
+}
+
+footer.footer section.footer-links {
+    padding: 15px 0;
+    font-size: 12px;
+    color: #666;
+    background-color: #303031;
+}
+
+    footer.footer section.footer-links .footer-friend-links {
+        text-align: left;
+    }
+
+@media only screen and (max-width:767px) {
+    footer.footer section.footer-maps .footer-maps-block {
+        width: 33%;
+        height: 150px;
+    }
+
+    footer.footer section.footer-links .footer-friend-links {
+        margin-bottom: 10px;
+    }
+}
+
+footer.footer section.footer-links .footer-friend-links > h2 {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+footer.footer section.footer-links .footer-friend-links > p {
+    margin-bottom: 0;
+}
+
+    footer.footer section.footer-links .footer-friend-links > p > a {
+        color: #666;
+    }
+
+footer.footer section.footer-links .col-sm-12 .footer-about-links {
+    text-align: center;
+}
+
+footer.footer section.footer-links .footer-about-links {
+    text-align: right;
+}
+
+    footer.footer section.footer-links .footer-about-links > p {
+        margin-bottom: 5px;
+    }
+
+        footer.footer section.footer-links .footer-about-links > p:last-child {
+            margin-bottom: 0;
+        }
+
+        footer.footer section.footer-links .footer-about-links > p > a {
+            color: #666;
+        }
+
+section.login-element .modal-dialog .modal-content {
+    position: relative;
+    padding-top: 180px;
+    height: 380px;
+    border-radius: 8px;
+    background-image: url(http://img.sfcdn.org/cc74fb4cce9d558d5124d750e4623e70972f76b6.jpg);
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:767px) {
+    footer.footer section.footer-links .footer-about-links {
+        text-align: center;
+    }
+
+    section.login-element .modal-dialog .modal-content {
+        height: auto;
+        background-size: 100%;
+    }
+
+        section.login-element .modal-dialog .modal-content .modal-body .login-qrcode {
+            text-align: center;
+        }
+}
+
+section.login-element .modal-dialog .modal-content .modal-body {
+    padding-top: 0;
+}
+
+    section.login-element .modal-dialog .modal-content .modal-body:after, section.login-element .modal-dialog .modal-content .modal-body:before {
+        content: " ";
+        display: table;
+    }
+
+    section.login-element .modal-dialog .modal-content .modal-body:after {
+        clear: both;
+    }
+
+@media only screen and (min-width:768px) {
+    section.login-element .modal-dialog {
+        margin-top: 200px;
+        width: 500px;
+    }
+
+        section.login-element .modal-dialog .modal-content .modal-body {
+            padding: 20px 13px 30px 30px;
+        }
+
+            section.login-element .modal-dialog .modal-content .modal-body > form {
+                float: left;
+                width: 280px;
+            }
+
+            section.login-element .modal-dialog .modal-content .modal-body .login-qrcode {
+                margin-left: 300px;
+            }
+}
+
+section.login-element .modal-dialog .modal-content .modal-body > form .form-group {
+    margin-bottom: 10px;
+}
+
+    section.login-element .modal-dialog .modal-content .modal-body > form .form-group .input-group-addon {
+        padding: 8px 10px;
+        background: 0 0;
+        -webkit-transition: border-color ease-in-out .15s 0s;
+        -moz-transition: border-color ease-in-out .15s 0s;
+        -o-transition: border-color ease-in-out .15s 0s;
+        transition: border-color ease-in-out .15s 0s;
+    }
+
+        section.login-element .modal-dialog .modal-content .modal-body > form .form-group .input-group-addon.focus {
+            border-color: #66afe9;
+        }
+
+        section.login-element .modal-dialog .modal-content .modal-body > form .form-group .input-group-addon.username > span {
+            background-position: 0 -40px;
+        }
+
+        section.login-element .modal-dialog .modal-content .modal-body > form .form-group .input-group-addon.password > span {
+            background-position: -17px -40px;
+        }
+
+        section.login-element .modal-dialog .modal-content .modal-body > form .form-group .input-group-addon > span {
+            display: block;
+            width: 16px;
+            height: 16px;
+            background-image: url(http://img.sfcdn.org/efca62200fb592f566ddad29d6095d91ab8ce742.png);
+            background-repeat: no-repeat;
+        }
+
+    section.login-element .modal-dialog .modal-content .modal-body > form .form-group .form-control {
+        padding-left: 0;
+        border-left: none;
+        box-shadow: none;
+    }
+
+section.login-element .modal-dialog .modal-content .modal-body > form .btn {
+    margin-bottom: 5px;
+    font-size: 18px;
+    background-color: #0288d1;
+    border-color: #0288d1;
+}
+
+section.login-element .modal-dialog .modal-content .modal-body > form > p {
+    margin-bottom: 0;
+}
+
+    section.login-element .modal-dialog .modal-content .modal-body > form > p > a {
+        color: #0288d1;
+    }
+
+section.login-element .modal-dialog .modal-content .modal-body .login-qrcode #login_container {
+    margin-top: -10px;
+    width: 145px;
+    height: 145px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:767px) {
+    section.login-element .modal-dialog .modal-content .modal-body .login-qrcode #login_container {
+        margin: 10px auto 0;
+    }
+}
+
+section.login-element .modal-dialog .modal-content .modal-body .login-qrcode > p {
+    font-size: 12px;
+}
+
+    section.login-element .modal-dialog .modal-content .modal-body .login-qrcode > p > i {
+        font-size: 18px;
+        color: #3eb134;
+    }
+
+    section.login-element .modal-dialog .modal-content .modal-body .login-qrcode > p > span {
+        color: #0288d1;
+    }
+
+section.login-element .modal-dialog .modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    background: #fff;
+    background: rgba(255,255,255,.1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#1AFFFFFF FF, endColorstr=#1AFFFFFF FF)";
+}
+
+nav.navbar {
+    margin-bottom: 30px;
+}
+
+section.account-login .account-login-title {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+@media only screen and (min-width:768px) {
+    section.login-element .modal-dialog .modal-content .modal-body .login-qrcode > p {
+        padding-left: 10px;
+    }
+
+    section.account-login .account-login-form .pull-right {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    section.account-login .account-login-form .login-form-buttons .form-button-login {
+        margin-bottom: 20px;
+    }
+
+    section.account-login .account-login-form .pull-right .form-button-forget, section.account-login .account-login-form .pull-right .form-button-register {
+        display: inline-block;
+        width: 45%;
+    }
+
+    section.account-login .account-login-form .pull-right .form-button-register {
+        float: right;
+    }
+}
+
+.account-login-note {
+    color: #333;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+}
+
+    .account-login-note > strong {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 400;
+        color: #d92121;
+    }
+
+    .account-login-note > p {
+        margin-bottom: 5px;
+    }
+
+    .account-login-note > a {
+        font-size: 16px;
+        color: #2a68a7;
+        text-decoration: underline;
+    }
+
+section.account-dashboard .account-dashboard-title {
+    margin-top: 25px;
+    border-bottom-color: #ccc;
+}
+
+    section.account-dashboard .account-dashboard-title > h2 {
+        margin: 0;
+        font-size: 24px;
+        color: #f93;
+    }
+
+        section.account-dashboard .account-dashboard-title > h2 > small {
+            font-size: 14px;
+            line-height: 25px;
+        }
+
+section.account-dashboard .account-dashboard-avatar {
+    display: inline-block;
+}
+
+section.account-dashboard .account-dashboard-detail > dt {
+    margin-bottom: 5px;
+    width: 130px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #777;
+}
+
+section.account-dashboard .account-dashboard-detail > dd {
+    margin-bottom: 5px;
+    margin-left: 140px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+    section.account-dashboard .account-dashboard-detail > dd > a {
+        font-size: 14px;
+    }
+
+    section.account-dashboard .account-dashboard-detail > dd .checkbox {
+        margin: 0;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+section.account-dashboard .account-dashboard-apps .dashboard-apps-divider {
+    margin-top: 10px;
+    border-top: 1px dashed #ddd;
+}
+
+section.account-register .account-register-title {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width:767px) {
+    section.account-password-remind .password-remind-form .remind-form-submit {
+        margin-bottom: 15px;
+    }
+}
+
+section.account-qr-confirm {
+    font-size: 16px;
+}
+
+    section.account-qr-confirm .qr-confirm-title {
+        font-size: 20px;
+        color: #f93;
+    }
+
+        section.account-qr-confirm .qr-confirm-title span {
+            font-size: 16px;
+            color: #000;
+        }
+
+    section.account-qr-confirm .qr-confirm-detail td {
+        width: 50%;
+    }
+
+    section.account-qr-confirm .qr-confirm-buttons {
+        text-align: center;
+    }
+
+        section.account-qr-confirm .qr-confirm-buttons .qr-confirm-form {
+            margin-bottom: 15px;
+        }
+
+section.live-list-title > h2 {
+    font-size: 30px;
+}
+
+section.live-list-buttons .list-buttons-right {
+    text-align: right;
+}
+
+@media only screen and (max-width:991px) {
+    section.live-list-buttons .list-buttons-right {
+        margin-top: 15px;
+        text-align: left;
+    }
+}
+
+.live-list-form {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.live-list-table .x-input {
+    color: #000;
+}
+
+    .live-list-table .x-input:hover {
+        color: #f93;
+    }
+
+@media only screen and (max-width:767px) {
+    table.live-list-table .list-item td .textline-limited, table.live-list-table tbody, table.live-list-table td, table.live-list-table tr {
+        display: block;
+    }
+
+    table.live-list-table {
+        display: block;
+        border: none;
+    }
+
+        table.live-list-table .list-item {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+
+            table.live-list-table .list-item td {
+                border: none;
+            }
+}
+
+.live-import-title > h2 {
+    line-height: 35px;
+}

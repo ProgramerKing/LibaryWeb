@@ -66,7 +66,45 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="BootStrap\Css\account.css" />
+    <Content Include="BootStrap\Css\bootstrapValidator.css" />
+    <Content Include="BootStrap\Css\bootstrapValidator.min.css" />
+    <Content Include="BootStrap\Css\font-awesome.min.css" />
+    <Content Include="BootStrap\Css\metro-bootstrap.min.css" />
+    <Content Include="BootStrap\Css\index.css" />
+    <Content Include="BootStrap\JS\bootstrap.js" />
+    <Content Include="BootStrap\JS\bootstrap.min.js" />
+    <Content Include="BootStrap\JS\bootstrapValidator.js" />
+    <Content Include="BootStrap\JS\bootstrapValidator.min.js" />
+    <Content Include="Css\book_list.css" />
+    <Content Include="Css\border-anim-h.gif" />
+    <Content Include="Css\border-anim-v.gif" />
+    <Content Include="Css\border-h.gif" />
+    <Content Include="Css\border-v.gif" />
+    <Content Include="Css\cart.css" />
+    <Content Include="Css\demos.css" />
+    <Content Include="Css\gongyong.css" />
+    <Content Include="Css\imgareaselect-default.css" />
+    <Content Include="Css\index.css" />
+    <Content Include="Css\login.css" />
+    <Content Include="Css\pageBar.css" />
+    <Content Include="Css\page_bottom_new.css" />
+    <Content Include="Css\Style.css" />
+    <Content Include="Css\ucenter.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="ashx\CheckUserName.ashx" />
+    <None Include="Js\jquery-1.4.2-vsdoc.js" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Index.aspx" />
+    <Content Include="Js\jquery-1.10.2.min.js" />
+    <Content Include="Js\jquery-1.4.2.js" />
+    <Content Include="Js\jquery-1.7.1.js" />
+    <Content Include="Js\jquery-ui-1.8.2.custom.min.js" />
+    <Content Include="Js\jquery.imgareaselect.min.js" />
     <Content Include="packages.config" />
+    <Content Include="MainMaster\MasterPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -79,14 +117,63 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ashx\CheckUserName.ashx.cs">
+      <DependentUpon>CheckUserName.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainMaster\MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MainMaster\MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Css\themes\" />
+    <Folder Include="Js\ui\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Libary.BLL\Libary.BLL.csproj">
+      <Project>{7e65a0db-59d6-4a21-8ee2-e8255db555b8}</Project>
+      <Name>Libary.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libary.Models\Libary.Models.csproj">
+      <Project>{324282cb-c04e-4487-bc88-1a0793b6b11d}</Project>
+      <Name>Libary.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

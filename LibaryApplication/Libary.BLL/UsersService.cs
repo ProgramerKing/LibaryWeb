@@ -68,7 +68,6 @@ namespace Libary.BLL
 		/// </summary>
 		public  Users GetModel(int Id)
 		{
-			
 			return dal.GetModel(Id);
 		}
 

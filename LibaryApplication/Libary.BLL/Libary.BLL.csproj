@@ -54,6 +54,7 @@
     <Compile Include="CheckEmailService.cs" />
     <Compile Include="DepartmentService.cs" />
     <Compile Include="KeyWordsRankService.cs" />
+    <Compile Include="MyClass\UsersService.cs" />
     <Compile Include="OrderBookService.cs" />
     <Compile Include="OrdersService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
