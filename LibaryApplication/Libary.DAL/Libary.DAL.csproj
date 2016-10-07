@@ -40,9 +40,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionGroupDAL.cs" />
+    <Compile Include="ActionGroupActionInfoDAL.cs" />
+    <Compile Include="ActionInfoDAL.cs" />
+    <Compile Include="Articel_WordsDAL.cs" />
+    <Compile Include="BookCommentDAL.cs" />
+    <Compile Include="BooksDAL.cs" />
+    <Compile Include="CartDAL.cs" />
+    <Compile Include="CategoriesDAL.cs" />
+    <Compile Include="CheckEmailDAL.cs" />
+    <Compile Include="DepartmentDAL.cs" />
+    <Compile Include="KeyWordsRankDAL.cs" />
+    <Compile Include="OrderBookDAL.cs" />
+    <Compile Include="OrdersDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SqlHelper.cs" />
-    <Compile Include="UserInfoDal.cs" />
+    <Compile Include="PublishersDAL.cs" />
+    <Compile Include="RoleDAL.cs" />
+    <Compile Include="RoleActionGroupDAL.cs" />
+    <Compile Include="RoleActionInfoDAL.cs" />
+    <Compile Include="RoleDepartmentDAL.cs" />
+    <Compile Include="R_UserInfo_ActionInfoDAL.cs" />
+    <Compile Include="SearchDetailsDAL.cs" />
+    <Compile Include="SettingsDAL.cs" />
+    <Compile Include="SysFunDAL.cs" />
+    <Compile Include="UserInfoDAL.cs" />
+    <Compile Include="UserInfoRoleDAL.cs" />
+    <Compile Include="UsersDAL.cs" />
+    <Compile Include="UserStatesDAL.cs" />
+    <Compile Include="VidoFileDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Test\CodematicDemo\DBUtility\Libary.DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>Libary.DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libary.Models\Libary.Models.csproj">
+      <Project>{324282cb-c04e-4487-bc88-1a0793b6b11d}</Project>
+      <Name>Libary.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

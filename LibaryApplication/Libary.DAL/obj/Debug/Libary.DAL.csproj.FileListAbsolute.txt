@@ -1,0 +1,11 @@
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.DAL\bin\Debug\Libary.DAL.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.DAL\bin\Debug\Libary.DAL.pdb
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.DAL\bin\Debug\Libary.DBUtility.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.DAL\bin\Debug\Libary.Models.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.DAL\bin\Debug\System.Data.SQLite.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.DAL\bin\Debug\MySql.Data.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.DAL\bin\Debug\Libary.DBUtility.pdb
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.DAL\bin\Debug\Libary.Models.pdb
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.DAL\obj\Debug\Libary.DAL.csprojResolveAssemblyReference.cache
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.DAL\obj\Debug\Libary.DAL.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.DAL\obj\Debug\Libary.DAL.pdb

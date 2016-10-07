@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Maticsoft.Common">
+      <HintPath>..\Lib\Maticsoft.Common.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,7 +43,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionGroupService.cs" />
+    <Compile Include="ActionGroupActionInfoService.cs" />
+    <Compile Include="ActionInfoService.cs" />
+    <Compile Include="Articel_WordsService.cs" />
+    <Compile Include="BookCommentService.cs" />
+    <Compile Include="BooksService.cs" />
+    <Compile Include="CartService.cs" />
+    <Compile Include="CategoriesService.cs" />
+    <Compile Include="CheckEmailService.cs" />
+    <Compile Include="DepartmentService.cs" />
+    <Compile Include="KeyWordsRankService.cs" />
+    <Compile Include="OrderBookService.cs" />
+    <Compile Include="OrdersService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublishersService.cs" />
+    <Compile Include="RoleService.cs" />
+    <Compile Include="RoleActionGroupService.cs" />
+    <Compile Include="RoleActionInfoService.cs" />
+    <Compile Include="RoleDepartmentService.cs" />
+    <Compile Include="R_UserInfo_ActionInfoService.cs" />
+    <Compile Include="SearchDetailsService.cs" />
+    <Compile Include="SettingsService.cs" />
+    <Compile Include="SysFunService.cs" />
+    <Compile Include="UserInfoService.cs" />
+    <Compile Include="UserInfoRoleService.cs" />
+    <Compile Include="UsersService.cs" />
+    <Compile Include="UserStatesService.cs" />
+    <Compile Include="VidoFileService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Libary.DAL\Libary.DAL.csproj">
+      <Project>{d0e816ff-aa76-4c5b-ad8b-2f91b4114681}</Project>
+      <Name>Libary.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libary.Models\Libary.Models.csproj">
+      <Project>{324282cb-c04e-4487-bc88-1a0793b6b11d}</Project>
+      <Name>Libary.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,1 +1,5 @@
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.Common\bin\Debug\Libary.Common.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.Common\bin\Debug\Libary.Common.pdb
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.Common\obj\Debug\Libary.Common.csprojResolveAssemblyReference.cache
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.Common\obj\Debug\Libary.Common.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.Common\obj\Debug\Libary.Common.pdb

@@ -1,0 +1,14 @@
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\bin\Debug\Libary.BLL.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\bin\Debug\Libary.BLL.pdb
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\bin\Debug\Libary.DAL.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\bin\Debug\Libary.Models.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\bin\Debug\Maticsoft.Common.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\bin\Debug\Libary.DBUtility.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\bin\Debug\System.Data.SQLite.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\bin\Debug\MySql.Data.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\bin\Debug\Libary.DAL.pdb
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\bin\Debug\Libary.Models.pdb
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\bin\Debug\Libary.DBUtility.pdb
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\obj\Debug\Libary.BLL.csprojResolveAssemblyReference.cache
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\obj\Debug\Libary.BLL.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.BLL\obj\Debug\Libary.BLL.pdb
