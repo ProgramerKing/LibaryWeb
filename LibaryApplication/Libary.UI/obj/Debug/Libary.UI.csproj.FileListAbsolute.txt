@@ -29,3 +29,5 @@ S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.DBUtility.pdb
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\obj\Debug\Libary.UI.csprojResolveAssemblyReference.cache
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\obj\Debug\Libary.UI.dll
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\obj\Debug\Libary.UI.pdb
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.Common.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.Common.pdb

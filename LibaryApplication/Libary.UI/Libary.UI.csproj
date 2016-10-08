@@ -96,6 +96,7 @@
     <Content Include="Default.aspx" />
     <Content Include="ashx\CheckUserName.ashx" />
     <None Include="Js\jquery-1.4.2-vsdoc.js" />
+    <Content Include="Demo\FormValidator.html" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="Js\jquery-1.10.2.min.js" />
@@ -153,6 +154,7 @@
     </Compile>
     <Compile Include="MainMaster\MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="MainMaster\MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -169,6 +171,10 @@
     <ProjectReference Include="..\Libary.BLL\Libary.BLL.csproj">
       <Project>{7e65a0db-59d6-4a21-8ee2-e8255db555b8}</Project>
       <Name>Libary.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libary.Common\Libary.Common.csproj">
+      <Project>{2170ed62-1dc4-4c8c-9345-c093ecded5be}</Project>
+      <Name>Libary.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\Libary.Models\Libary.Models.csproj">
       <Project>{324282cb-c04e-4487-bc88-1a0793b6b11d}</Project>

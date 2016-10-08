@@ -5,10 +5,12 @@
     <title>Libary</title>
     <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
     <link href="../BootStrap/Css/font-awesome.min.css" rel="stylesheet" />
-    <link href="../BootStrap/Css/metro-bootstrap.min.css" rel="stylesheet" />
 
     <script src="../Js/jquery-1.10.2.min.js"></script>
+
     <script src="../BootStrap/JS/bootstrap.min.js"></script>
+        <link href="../BootStrap/Css/metro-bootstrap.min.css" rel="stylesheet" />
+
     <asp:ContentPlaceHolder ID="Header" runat="server">
     </asp:ContentPlaceHolder>
 
@@ -28,14 +30,13 @@
                             <a href="#">注册</a>
                         </div>
                         <div class="top-bar-search">
-                            <form method="GET" action="http://app.shafa.com/search" accept-charset="UTF-8" class="form-inline">
-
+       <%--                     <form class="form-inline">
                                 <div class="form-group">
                                     <input class="form-control" placeholder="搜索电视应用" name="kw" type="text">
-                                </div>
-                                <button class="btn btn-success" type="submit"><i class="fa fa-search"></i></button>
-
-                            </form>
+                                </div>--%>
+                          <%--      <button class="btn btn-success" type="submit"><i class="fa fa-search"></i></button>--%>
+               <%--                 
+                            </form>--%>
                         </div>
                     </div>
                 </div>
@@ -53,7 +54,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="http://www.shafa.com/">沙发网</a></li>
+                        <li><a href="#">Libary</a></li>
                         <li>
                             <ul class="dropdown-menu">
                                 <li><a href="#">影视点播</a></li>
@@ -174,14 +175,14 @@
                     <div class="col-sm-12">
                         <div class="footer-about-links">
                             <p>
-                                <a target="_blank" href="http://blog.shafa.com/aboutus/">关于我们</a> <span class="mute">·</span>
-                                <a target="_blank" href="http://blog.shafa.com/joinus/">加入我们</a> <span class="mute">·</span>
-                                <a target="_blank" href="http://blog.shafa.com/partner/">商务合作</a> <span class="mute">·</span>
-                                <a target="_blank" href="http://www.shafa.com/copyright/">侵权投诉</a>
+                                <a target="_blank" href="#">关于我们</a> <span class="mute">·</span>
+                                <a target="_blank" href="#">加入我们</a> <span class="mute">·</span>
+                                <a target="_blank" href="#">商务合作</a> <span class="mute">·</span>
+                                <a target="_blank" href="#">侵权投诉</a>
                             </p>
                             <p>
-                                ©&nbsp;2016&nbsp;<a href="http://www.shafa.com/?" target="_blank">沙发网</a>&nbsp;
-                                <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">沪ICP备11033765号</a>
+                                ©&nbsp;2016&nbsp;<a href="#" target="_blank">沙发网</a>&nbsp;
+                                <a href="#" target="_blank" rel="nofollow">沪ICP备11033765号</a>
                             </p>
                         </div>
                     </div>

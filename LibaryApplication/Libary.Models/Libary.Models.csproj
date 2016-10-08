@@ -50,6 +50,7 @@
     <Compile Include="Categories.cs" />
     <Compile Include="CheckEmail.cs" />
     <Compile Include="Department.cs" />
+    <Compile Include="EnumClass\UserStaateEnum.cs" />
     <Compile Include="KeyWordsRank.cs" />
     <Compile Include="OrderBook.cs" />
     <Compile Include="Orders.cs" />

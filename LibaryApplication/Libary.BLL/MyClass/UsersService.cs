@@ -16,5 +16,16 @@ namespace Libary.BLL
         {
             return dal.GetModel(userName);
         }
+
+        /// <summary>
+        /// 增加一条数据
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        //public int Add(Users model)
+        //{
+        //    //判断用户是否被占用
+        //    return dal.Add(model);
+        //}
     }
 }
