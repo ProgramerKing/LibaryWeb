@@ -9,7 +9,7 @@
                 <section class="well well-lg account-login">
                     <h2 class="account-login-title">登录Libary</h2>
 
-                    <form method="POST" action="#" accept-charset="UTF-8" class="account-login-form">
+                   <%-- <form method="POST" action="#" accept-charset="UTF-8" class="account-login-form">--%>
                         <input name="_token" type="hidden" value="faKZLC3Cw4agizy6FiELCeuCWX7pYk257Q9KdySB">
 
                         <div class="form-group">
@@ -31,7 +31,7 @@
                             </div>
                         </div>
 
-                    </form>
+<%--                    </form>--%>
                 </section>
             </div>
         </div>

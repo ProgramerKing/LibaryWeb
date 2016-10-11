@@ -18,14 +18,16 @@ namespace Libary.UI.ashx
         public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "text/plain";
-            if(WebCommon.CheckValidateCode())
+            string username = context.Request["username"];
+
+            UsersService users = new UsersService();
+            if(users.GetModel(username)!=null)
             {
-                context.Session["vCode"] = null;
-                UserRegister(context);
+                context.Response.Write("Y");
             }
             else
             {
-
+                context.Response.Write("N");
             }
 
         }

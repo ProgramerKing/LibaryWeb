@@ -16,16 +16,14 @@ namespace Libary.BLL
         {
             return dal.GetModel(userName);
         }
-
         /// <summary>
-        /// 增加一条数据
+        /// 验证邮箱
         /// </summary>
-        /// <param name="model"></param>
+        /// <param name="mail"></param>
         /// <returns></returns>
-        //public int Add(Users model)
-        //{
-        //    //判断用户是否被占用
-        //    return dal.Add(model);
-        //}
+        public bool CheckUserMail(string mail)
+        {
+            return dal.CheckUserMail(mail) > 0;
+        }
     }
 }

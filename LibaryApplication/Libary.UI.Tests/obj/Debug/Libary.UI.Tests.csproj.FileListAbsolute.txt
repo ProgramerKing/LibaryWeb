@@ -30,5 +30,3 @@ S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI.Tests\bin\Debug\zh-Hans\Microsof
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI.Tests\obj\Debug\Libary.UI.Tests.csprojResolveAssemblyReference.cache
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI.Tests\obj\Debug\Libary.UI.Tests.dll
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI.Tests\obj\Debug\Libary.UI.Tests.pdb
-S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI.Tests\bin\Debug\Libary.Common.dll
-S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI.Tests\bin\Debug\Libary.Common.pdb

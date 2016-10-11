@@ -20,9 +20,9 @@ namespace Libary.DAL
 
             StringBuilder strSql = new StringBuilder();
             strSql.Append("select  top 1 Id,LoginId,LoginPwd,Name,Address,Phone,Mail,UserStateId from Users ");
-            strSql.Append(" where Id=@LoginId");
+            strSql.Append(" where LoginId=@LoginId");
             SqlParameter[] parameters = {
-                    new SqlParameter("@LoginId", SqlDbType.Int,4)
+                    new SqlParameter("@LoginId", SqlDbType.NVarChar,50)
             };
             parameters[0].Value = userName;
 
@@ -36,6 +36,12 @@ namespace Libary.DAL
             {
                 return null;
             }
+        }
+
+        public int CheckUserMail(string mail)
+        {
+            string sql = "SELECT COUNT(*) FROM Users WHERE Mail=@Mail";
+            return Convert.ToInt32(DbHelperSQL.GetSingle(sql, new SqlParameter("@Mail", mail)));
         }
     }
 }

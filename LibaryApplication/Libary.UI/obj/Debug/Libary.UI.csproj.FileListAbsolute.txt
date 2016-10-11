@@ -14,6 +14,7 @@ S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.UI.dll.config
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.UI.dll
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.UI.pdb
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.BLL.dll
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.Common.dll
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.Models.dll
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.DAL.dll
@@ -22,6 +23,7 @@ S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.DBUtility.dll
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\System.Data.SQLite.dll
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\MySql.Data.dll
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.BLL.pdb
+S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.Common.pdb
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.Models.pdb
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.DAL.pdb
@@ -29,5 +31,3 @@ S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.DBUtility.pdb
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\obj\Debug\Libary.UI.csprojResolveAssemblyReference.cache
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\obj\Debug\Libary.UI.dll
 S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\obj\Debug\Libary.UI.pdb
-S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.Common.dll
-S:\GitHub\LibaryWeb\LibaryApplication\Libary.UI\bin\Libary.Common.pdb
